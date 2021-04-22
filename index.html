@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors game</title>
-    <link rel="icon" href="images/logo.png" type="image/icon type">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" href="images/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Rock Paper Scissor</h1>
+      <h1>Rock Paper Scissor</h1>
     </header>
     <div class="score-board">
-        <div id="user-label" class="badge">user</div>
-        <div id="comp-label" class="badge">comp</div>
-        <span id="user-score">1</span>:<span id="comp-score">0</span>
+      <div id="user-label" class="badge">user</div>
+      <div id="comp-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
     </div>
     <div class="result">
-        <p>Paper covers rock.You win!</p>
+      <p>Paper covers rock.You win!</p>
     </div>
     <div class="choices">
-        <div class="choice" id="rock">
-            <img src="images/rock.png" alt="">
-        </div>
-        <div class="choice" id="paper">
-            <img src="images/paper.png" alt="">
-        </div>
-        <div class="choice" id="scissor">
-            <img src="images/scissors.png" alt="">
-        </div>
+      <div class="choice" id="rock">
+        <img src="images/rock.png" alt="" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="images/paper.png" alt="" />
+      </div>
+      <div class="choice" id="scissor">
+        <img src="images/scissors.png" alt="" />
+      </div>
     </div>
     <p id="action-msg">Make your moves</p>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
